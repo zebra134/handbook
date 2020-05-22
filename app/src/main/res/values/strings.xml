@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Physics</string>
+    <string name="theorems">Теоремы</string>
+    <string name="formulas">Формулы</string>
+    <string name="kinematics">Кинематика</string>
+    <string name="dynamics">Динамика</string>
+    <string name="statics">Статика</string>
+    <string name="hydrostatics">Гидростатика</string>
+    <string name="pulse">Импульс</string>
+    <string name="energy">Работа, мощность, энергия</string>
+    <string name="molecularPhysics">Молекулярная физика</string>
+    <string name="thermodynamics">Термодинамика</string>
+    <string name="electrostatics">Электростатика</string>
+    <string name="electricity">Электрический ток</string>
+    <string name="magnetism">Магнетизм</string>
+    <string name="vibrations">Колебания</string>
+    <string name="optics">Оптика</string>
+    <string name="atomicPhysics">Атомная и ядерная физика</string>
+    <string name="theoryOfRelativity">Основы специальной теории относительности</string>
+    <string name="mechanics">Механика</string>
+    <string name="noSection">Без раздела</string>
+</resources>

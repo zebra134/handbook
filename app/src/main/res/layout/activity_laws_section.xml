@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mechanics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:text="@string/mechanics" />
+
+            <Button
+                android:id="@+id/thermodynamics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:text="@string/thermodynamics" />
+
+            <Button
+                android:id="@+id/electricity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:text="@string/electricity" />
+
+            <Button
+                android:id="@+id/optics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:text="@string/optics" />
+
+            <Button
+                android:id="@+id/atomicPhysics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:text="@string/atomicPhysics" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
