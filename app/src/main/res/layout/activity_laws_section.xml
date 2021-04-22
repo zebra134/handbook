@@ -19,7 +19,9 @@
                 android:layout_marginStart="@dimen/button_side_20dp"
                 android:layout_marginTop="@dimen/button_top_10dp"
                 android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/mechanics" />
+                android:background="@drawable/btn_bg_th"
+                android:text="@string/mechanics"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/thermodynamics"
@@ -28,7 +30,9 @@
                 android:layout_marginStart="@dimen/button_side_20dp"
                 android:layout_marginTop="@dimen/button_top_10dp"
                 android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/thermodynamics" />
+                android:background="@drawable/btn_bg_th"
+                android:text="@string/thermodynamics"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/electricity"
@@ -37,7 +41,9 @@
                 android:layout_marginStart="@dimen/button_side_20dp"
                 android:layout_marginTop="@dimen/button_top_10dp"
                 android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/electricity" />
+                android:background="@drawable/btn_bg_th"
+                android:text="@string/electricity"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/optics"
@@ -46,7 +52,9 @@
                 android:layout_marginStart="@dimen/button_side_20dp"
                 android:layout_marginTop="@dimen/button_top_10dp"
                 android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/optics" />
+                android:background="@drawable/btn_bg_th"
+                android:text="@string/optics"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/atomicPhysics"
@@ -55,7 +63,9 @@
                 android:layout_marginStart="@dimen/button_side_20dp"
                 android:layout_marginTop="@dimen/button_top_10dp"
                 android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/atomicPhysics" />
+                android:background="@drawable/btn_bg_th"
+                android:text="@string/atomicPhysics"
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 

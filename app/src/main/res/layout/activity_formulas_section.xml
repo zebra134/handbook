@@ -14,138 +14,183 @@
 
             <Button
                 android:id="@+id/kinematics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/kinematics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/kinematics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/dynamics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/dynamics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/dynamics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/statics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/statics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/statics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/hydrostatics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/hydrostatics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/hydrostatics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/pulse"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/pulse"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/pulse"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/energy"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/energy"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/energy"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/molecularPhysics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/molecularPhysics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/molecularPhysics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/thermodynamics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/thermodynamics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/thermodynamics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/electrostatics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/electrostatics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/electrostatics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/electricity"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/electricity"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/electricity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/magnetism"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/magnetism"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/magnetism"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/vibrations"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/vibrations"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/vibrations"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/optics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/optics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/optics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/atomicPhysics"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/atomicPhysics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/atomicPhysics"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/theoryOfRelativity"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:text="@string/theoryOfRelativity"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_side_20dp"
+                android:layout_marginTop="@dimen/button_top_10dp"
+                android:layout_marginEnd="@dimen/button_side_20dp"
+                android:background="@drawable/btn_bg_for"
+                android:text="@string/theoryOfRelativity"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
 
         </LinearLayout>
 
