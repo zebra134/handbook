@@ -39,6 +39,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class ShowFormulasActivity extends AppCompatActivity {
+    //Formulas
 
     @BindView(R.id.search)
     SearchView searchView;

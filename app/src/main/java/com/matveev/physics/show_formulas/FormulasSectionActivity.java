@@ -14,6 +14,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class FormulasSectionActivity extends AppCompatActivity implements View.OnClickListener {
+    //Formulas
 
     @BindView(R.id.kinematics)
     Button kinematics;

@@ -14,6 +14,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class LawsSectionActivity extends AppCompatActivity implements View.OnClickListener {
+    //Theorems
 
     @BindView(R.id.mechanics)
     Button mechanics;

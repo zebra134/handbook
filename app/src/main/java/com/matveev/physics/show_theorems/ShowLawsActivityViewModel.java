@@ -13,6 +13,7 @@ import com.matveev.physics.repo.database.Entities.LawsEntity;
 import java.util.List;
 
 public class ShowLawsActivityViewModel extends AndroidViewModel {
+    //Theorems
 
     private Repository repository;
     private MutableLiveData<List<LawsEntity>> lawsBySectionList = new MutableLiveData<>();

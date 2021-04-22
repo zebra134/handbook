@@ -39,6 +39,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class ShowLawsActivity extends AppCompatActivity {
+    //Theorems
 
     @BindView(R.id.search)
     SearchView searchView;

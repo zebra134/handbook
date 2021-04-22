@@ -13,6 +13,7 @@ import com.matveev.physics.repo.database.Formula;
 import java.util.List;
 
 public class ShowFormulasActivityViewModel extends AndroidViewModel {
+    //Formulas
 
     private Repository repository;
     private MutableLiveData<List<Formula>> formulasBySectionList = new MutableLiveData<>();
