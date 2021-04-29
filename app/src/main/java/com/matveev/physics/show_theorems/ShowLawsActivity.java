@@ -41,8 +41,6 @@ import butterknife.Unbinder;
 public class ShowLawsActivity extends AppCompatActivity {
     //Theorems
 
-    @BindView(R.id.search)
-    SearchView searchView;
     @BindView(R.id.list)
     RecyclerView formulasList;
     private Unbinder unbinder;
@@ -61,20 +59,7 @@ public class ShowLawsActivity extends AppCompatActivity {
         viewModel.getLawsBySection().observe(this, laws -> showLawsList(laws));
         viewModel.fetchLawsBySection(getSection());
 
-        searchView.setImeOptions(EditorInfo.IME_ACTION_DONE);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
 
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                adapter = (LawsAdapter) formulasList.getAdapter();
-                adapter.getFilter().filter(newText);
-                return false;
-            }
-        });
     }
 
     private void showLawsList(List<LawsEntity> laws) {

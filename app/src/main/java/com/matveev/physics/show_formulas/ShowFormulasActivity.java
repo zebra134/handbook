@@ -41,8 +41,7 @@ import butterknife.Unbinder;
 public class ShowFormulasActivity extends AppCompatActivity {
     //Formulas
 
-    @BindView(R.id.search)
-    SearchView searchView;
+
     @BindView(R.id.list)
     RecyclerView formulasList;
     private Unbinder unbinder;
@@ -61,20 +60,7 @@ public class ShowFormulasActivity extends AppCompatActivity {
         viewModel.getFormulasBySection().observe(this, formulas -> showFormulasList(formulas));
         viewModel.fetchFormulasBySection(getSection());
 
-        searchView.setImeOptions(EditorInfo.IME_ACTION_DONE);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
 
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                adapter = (FormulasAdapter) formulasList.getAdapter();
-                adapter.getFilter().filter(newText);
-                return false;
-            }
-        });
     }
 
     private void showFormulasList(List<Formula> formulas) {
